@@ -1,0 +1,146 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    margin: 0px;
+    background-color: #ffffff;
+    padding: 0.8em;
+}
+.navbar-brand{
+    color: #286090 !important;
+}
+.glyphicon-log-in {
+    color: #286090 !important;
+}
+.glyphicon-user {
+    color: #286090 !important;
+}
+
+#section1{
+    background-color: #333B69;
+    width: 1350px;
+    height: 561px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-family: 'Suranna', serif;
+    font-size: 90px;
+}
+.form-control {
+    padding: 25px;
+    width: 60vh;
+}
+.search-text{
+    float: left;
+    display: block;
+}
+.search-btn{
+    float: left;
+    display: block;
+}
+.btn {
+    padding: 15px 20px 15px 20px;
+}
+.search {
+    margin-top: 50px;
+    margin-left: 440px;
+}
+.down-arrow {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50%;
+}
+#section2 {
+    text-align: center;
+}
+#head {
+    font-family: 'Suranna', serif;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.img-thumbnail {
+    -moz-box-shadow: 10px 10px 50px #cccccc;
+    -webkit-box-shadow: 10px 10px 50px #cccccc;
+    box-shadow: 10px 10px 50px #cccccc;
+}
+.caption h3 {
+    font-family: 'Suranna', serif;
+    font-weight: bold;
+
+}
+.img-thumbnail p {
+    padding: 20px;
+}
+img {
+    padding: 30px 20px 10px 20px;
+}
+.row {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.credits {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#section3{
+    background-color: #333B69;
+    width: 1350px;
+    height: 850px;
+    color: #ffffff;
+    text-align: center;
+}
+.table th {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+.table, tr, td {
+    padding: 15px 20px 15px 20px !important;
+}
+.table-hover tr:hover td{
+  background-color: #495494;
+}
+
+.newsletter {
+    padding: 80px 0;
+    background: #f2f2f2;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+
+.newsletter .content h2 {
+    color: #495494;
+    margin-bottom: 40px; 
+}
+
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #495494;
+}
+
+.newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #495494;
+    color: #fff;
+    font-weight:600;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vistadeck</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="./index.html" style="font-size: 24px;">Vistadeck</a>
+            </div>
+            <div style="float: left;">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Rent</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="./browse.html">Browse Homes</a></li>
+                    <li><a href="./mortgage.html">Mortgage</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Manage Rentals <span
+                            class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">My Listings</a></li>
+                            <li><a href="#">Messages</a></li>
+                            <li><a href="#">Payments</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./about.html">About</a></li>
+                </ul>
+            </div>
+            <div style="float: right;">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="#" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid" id="section1">
+        <h1>Reimagine Home</h1>
+        <h3>We'll help you find a place you'll love.</h3>
+        <div class="search">
+            <div class="search-text">
+                <input type="text" class="form-control" placeholder="Enter an address, neighborhood, city, or ZIP
+                 code">
+            </div>
+            <div class="search-btn">
+                <button class="btn btn-primary" type="button">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="down-arrow">
+            <h3 class="glyphicon glyphicon-menu-down"></h3>
+        </div>
+    </section>
+
+    <section class="container" id="section2">
+        <div id="head">
+            <h3>We have the most listings and constant updates.</h3>
+            <h3>So you'll never miss out.</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="Buy a home">
+                    <img src="https://www.zillowstatic.com/s3/homepage/static/Buy_a_home.png" style="width:100%"></a>
+                    <div class="caption" >
+                        <h3>Buy a home</h3>
+                    </div>
+                    <p>Find your place with an immersive photo experience and the most listings, including things
+                        you won’t find anywhere else.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="Sell a home">
+                    <img src="https://www.zillowstatic.com/s3/homepage/static/Sell_a_home.png" style="width:100%"></a>
+                    <div class="caption">
+                        <h3>Sell a home</h3>
+                    </div>
+                    <p>Whether you sell with new Vistadeck Offers™ or take another approach, we’ll help you navigate
+                        the path to a successful sale.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="img-thumbnail">
+                    <a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="Rent a home">
+                    <img src="https://www.zillowstatic.com/s3/homepage/static/Rent_a_home.png" style="width:100%"></a>
+                    <div class="caption">
+                        <h3>Rent a home</h3>
+                    </div>
+                    <p>We’re creating a seamless online experience – from shopping on the largest rental network,
+                         to applying, to paying rent.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content">
+                        <form id="form" method="post">
+                            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">Subscribe Now</button>
+                                </span>
+                            </div>
+                            <div id="messages" class="hide" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <div id="messages_content"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+  
+    <footer>
+        <div class="copyright">
+            <span class="glyphicon glyphicon-copyright-mark"></span> Copyright <strong><span>Vistadeck</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            Made with <span class="glyphicon glyphicon-heart-empty"></span> by <a href="#">Bikash Nath</a>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+        $('#form').submit(function (e) {
+                $('#messages').removeClass('hide').addClass('alert alert-success alert-dismissible').slideDown().show();
+                $('#messages_content').html('<h4>You have successfully subscribed!</h4>');
+                $('#modal').modal('show');
+                e.preventDefault();
+            });
+    </script>
+</body>
+
+</html>

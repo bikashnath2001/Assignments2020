@@ -1,0 +1,74 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    margin: 0px;
+    background-color: #ffffff;
+    padding: 0.8em;
+}
+.navbar-brand{
+    color: #286090 !important;
+}
+.glyphicon-log-in {
+    color: #286090 !important;
+}
+.glyphicon-user {
+    color: #286090 !important;
+}
+#section1{
+    background-color: #333B69;
+    width: 1350px;
+    padding-top: 20px;
+}
+.form-control {
+    padding: 25px;
+    width: 60vh;
+}
+.search-text{
+    float: left;
+    display: block;
+}
+.search-btn{
+    float: left;
+    display: block;
+}
+.btn {
+    padding: 15px 20px 15px 20px;
+}
+#head {
+    font-family: 'Suranna', serif;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+.breadcrumb{
+    width: 15% !important;
+}
+li .active{
+    color: #ffffff;
+}
+#section3{
+    background-color: #333B69;
+    width: 1350px;
+    height: 850px;
+    color: #ffffff;
+    text-align: center;
+}
+.table th {
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+.table, tr, td {
+    padding: 15px 20px 15px 20px !important;
+}
+.table-hover tr:hover td{
+  background-color: #495494;
+}
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+.credits {
+    text-align: center;
+    margin-bottom: 20px;
+}
